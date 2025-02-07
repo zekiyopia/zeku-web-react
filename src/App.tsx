@@ -5,7 +5,6 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Skills from './pages/Skills';
 import Stats from './pages/Stats';
-import Contact from './pages/Contact';
 
 function App() {
   return (
@@ -18,7 +17,6 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/skills" element={<Skills />} />
             <Route path="/stats" element={<Stats />} />
-            <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
         <Footer />
